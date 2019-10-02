@@ -1,0 +1,28 @@
+{
+  "name": "braid-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "sku start",
+    "test": "sku test",
+    "build": "sku build",
+    "lint": "sku lint",
+    "format": "sku format"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "sku pre-commit"
+    }
+  },
+  "dependencies": {
+    "braid-design-system": "13.1.0",
+    "react": "16.10.1",
+    "react-dom": "16.10.1",
+    "sku": "8.12.10"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.4",
+    "@types/react-dom": "^16.9.1",
+    "husky": "^3.0.8"
+  }
+}
