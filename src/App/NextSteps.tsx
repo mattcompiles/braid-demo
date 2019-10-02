@@ -116,6 +116,7 @@ export default () => (
         </Box>
 
         <Heading level="4">Design support</Heading>
+
         <Paragraph>
           <Text>
             To discuss new or existing design patterns, visit{' '}
