@@ -93,6 +93,7 @@ export default () => (
         </Paragraph>
 
         <Heading level="4">Technical support</Heading>
+
         <Paragraph>
           <Text>
             For technical queries about the platform or the design system:
